@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 #include <vector>
 #include <GL/glut.h>
 #include <iostream>
@@ -19,14 +19,14 @@ private:
 public:
 	Graph();// конструктор без параметров 
 	~Graph() {}; //деструктор 
-	int GetVertexElement(int i) { return vL[i]; }                     
+	int GetVertexElement(int i) { return vL[i]; }
 	int GetAdjMatrixElement(int i, int j) { return Mati[i][j]; }
-	int GetAmountEdges();          
-	int GetAmountVerts() { return vL.size(); }                       
-	int GetVertPos(const int& v);	
+	int GetAmountEdges();
+	int GetAmountVerts() { return vL.size(); }
+	int GetVertPos(const int& v);
 	bool IsFull();
-	void InsertVertex(const int& v);          
-	void InsertEdge(const int& v, const int& v2, int w);                                                  
+	void InsertVertex(const int& v);
+	void InsertEdge(const int& v, const int& v2, int w);
 	void DeleteVertex();// удаление ребра                            
 	void drawGraph();// отрисовка графа                                 
 };
@@ -44,14 +44,14 @@ void Click(int button, int state, int x, int y); //работа с кнопка�
 void reshape(int w, int h);
 void display();
 bool* zon = new bool[maxi];
-bool per = false; 
+bool per = false;
 int ver;
 int CursX;
 int CursY;
 vertCoord vertC[maxi + 1];
 int R;
-int n;
 int l = 0;
+int n;
 int** M;
 int** M2;
 int** M5;
@@ -227,7 +227,7 @@ void Circle(int x, int y, int R)// функция для отрисовки кр
 	for (int i = 0; i < 360; i++)
 	{
 		float theta = 2.0f * 3.1415926f * float(i) / float(360);
-		y1 = R / 2  * cos(theta) + y;
+		y1 = R / 2 * cos(theta) + y;
 		x1 = R / 2 * sin(theta) + x;;
 		glVertex2f(x1, y1);
 	}
@@ -349,21 +349,21 @@ void Result(int ng, int** Mg) {// функция для решения зада�
 	int** M3;
 	int colMin = 1000, lnMin = 1000;
 
-	M2 = new int* [b];
-	for (int i = 0; i < b; i++) {
-		M2[i] = new int[b1];
+	M2 = new int* [50];
+	for (int i = 0; i < 50; i++) {
+		M2[i] = new int[50];
 	}
 
-	M3 = new int* [n];
-	for (int i = 0; i < b; i++) {
-		M3[i] = new int[b1];
+	M3 = new int* [50];
+	for (int i = 0; i < 50; i++) {
+		M3[i] = new int[50];
 	}
 
 	cout << endl;
 	int w, edge = 0, y, z, d, p, r;
-	int* g = new int[b * 2];
-	int* g1 = new int[b * 2];
-	int* g2 = new int[b * 2];
+	int* g = new int[50];
+	int* g1 = new int[50];
+	int* g2 = new int[50];
 	y = 0;
 
 	for (int j = 0; j < b; j++) {// записываем в новый массив
@@ -426,7 +426,7 @@ void Result(int ng, int** Mg) {// функция для решения зада�
 								lnMin = M2[j][i];
 							}
 						}
-					} 
+					}
 					for (int j = d; j < d + 1; j++) {
 						for (int i = z + 1; i < b1; i++) {// min в строке
 							if (M2[j][i] < lnMin and M2[j][i] != 1000) {
@@ -564,25 +564,17 @@ void Move(int x, int y)//отслеживание движения мыши
 
 void Click(int button, int state, int x, int y)//действия с кнопками 
 {
-	
+
 	if (x <= WinW and x >= 850 and y >= 0 and y <= 90)
 	{
 		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 		{
 			int cur = graph.GetAmountVerts(); // выводим результат, который зависит от графика
-			if (cur == n) {
+			if (l == 0) {
 				Result(n, M);
 			}
-			else {
-				if (cur >  n) {
-					Result(cur, M5);
-				}
-				else {
-					if (cur < n) {
-						Result(cur, M);
-					}
-				}
-				
+			if (l == 1 or l == 2) {
+				Result(cur, M5);
 			}
 
 		}
@@ -605,15 +597,8 @@ void Click(int button, int state, int x, int y)//действия с кнопк�
 			for (int i = 0; i < n6; i++) {
 				M5[i] = new int[10];
 			}
-			if (cur - 1 > n) {
-				for (int j = 0; j < n6; j++) {
-					for (int i = 0; i < n7; i++) {
-						M5[j][i] = M5[j][i];
-					}
-				}
-			}
 			for (int j = 0; j < n6 - 1; j++) {
-				for (int i = 0; i < n7 - 1 ; i++) {
+				for (int i = 0; i < n7 - 1; i++) {
 					M5[j][i] = M[j][i];
 				}
 			}
@@ -635,16 +620,17 @@ void Click(int button, int state, int x, int y)//действия с кнопк�
 		}
 	}
 	if (x <= WinW and x >= 850 and y >= 200 and y <= 290) {// удаление вершины
+
 		if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 		{
 			l = 2;
 			graph.DeleteVertex();
 			int cur = graph.GetAmountVerts();
-			cout << endl << "Удалена вершина : " << cur << endl;
+			cout << endl << "Удалена вершина : " << cur + 1 << endl;
 			return;
 		}
 	}
-	
+
 }
 
 void reshape(int w, int h)//обеспечивает масшатабирование
