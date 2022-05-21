@@ -1,0 +1,4 @@
+C:\Users\Кирилл\Desktop\творческая\Калькулятор1\Debug\Калькулятор1.vcxproj.AssemblyReference.cache
+C:\Users\Кирилл\Desktop\творческая\Калькулятор1\Debug\Калькулятор1.exe
+C:\Users\Кирилл\Desktop\творческая\Калькулятор1\Debug\Калькулятор1.MyForm.resources
+C:\Users\Кирилл\Desktop\творческая\Калькулятор1\Debug\Калькулятор1.vcxproj.GenerateResource.cache
