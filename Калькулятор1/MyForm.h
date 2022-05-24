@@ -2,7 +2,7 @@
 using namespace std;
 #pragma once
 
-namespace Калькулятор1 {
+namespace РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ1 {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -12,7 +12,7 @@ namespace Калькулятор1 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace Калькулятор1 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -37,38 +37,26 @@ namespace Калькулятор1 {
 			}
 		}
 	private: System::Windows::Forms::Label^ label1;
-
-
-
 	private: System::Windows::Forms::TextBox^ textBox3;
-
-
 	private: System::Windows::Forms::Label^ label2;
 	private: System::Windows::Forms::Label^ label3;
 	private: System::Windows::Forms::TextBox^ textBox4;
 	private: System::Windows::Forms::Label^ label4;
 	private: System::Windows::Forms::TextBox^ textBox5;
 	private: System::Windows::Forms::TextBox^ textBox6;
-
 	private: System::Windows::Forms::TextBox^ textBox8;
 	private: System::Windows::Forms::TextBox^ textBox9;
-
-
 	private: System::Windows::Forms::TextBox^ textBox12;
 	private: System::Windows::Forms::Label^ label5;
 	private: System::Windows::Forms::TextBox^ textBox13;
-
 	private: System::Windows::Forms::TextBox^ textBox15;
 	private: System::Windows::Forms::Label^ label6;
 	private: System::Windows::Forms::TextBox^ textBox16;
 	private: System::Windows::Forms::Label^ label7;
-
 	private: System::Windows::Forms::TextBox^ textBox18;
 	private: System::Windows::Forms::TextBox^ textBox19;
 	private: System::Windows::Forms::Label^ label8;
-
 	private: System::Windows::Forms::TextBox^ textBox21;
-
 	private: System::Windows::Forms::TextBox^ textBox23;
 	private: System::Windows::Forms::Label^ label9;
 	private: System::Windows::Forms::TextBox^ textBox24;
@@ -77,25 +65,19 @@ namespace Калькулятор1 {
 	private: System::Windows::Forms::TextBox^ textBox26;
 	private: System::Windows::Forms::Label^ label10;
 	private: System::Windows::Forms::TextBox^ textBox27;
-
 	private: System::Windows::Forms::TextBox^ textBox29;
-
 	private: System::Windows::Forms::Label^ label11;
 	private: System::Windows::Forms::TextBox^ textBox31;
 	private: System::Windows::Forms::TextBox^ textBox32;
-
 	private: System::Windows::Forms::Label^ label12;
 	private: System::Windows::Forms::TextBox^ textBox34;
 	private: System::Windows::Forms::Label^ label13;
 	private: System::Windows::Forms::TextBox^ textBox35;
-
 	private: System::Windows::Forms::TextBox^ textBox37;
 	private: System::Windows::Forms::Label^ label14;
 	private: System::Windows::Forms::TextBox^ textBox38;
-
 	private: System::Windows::Forms::TextBox^ textBox40;
 	private: System::Windows::Forms::TextBox^ textBox41;
-
 	private: System::Windows::Forms::TextBox^ textBox43;
 	private: System::Windows::Forms::TextBox^ textBox44;
 	private: System::Windows::Forms::Label^ label15;
@@ -103,8 +85,6 @@ namespace Калькулятор1 {
 	private: System::Windows::Forms::Label^ label16;
 	private: System::Windows::Forms::Label^ label17;
 	private: System::Windows::Forms::TextBox^ textBox46;
-
-
 	private: System::Windows::Forms::Label^ label18;
 	private: System::Windows::Forms::Label^ label19;
 	private: System::Windows::Forms::Label^ label20;
@@ -116,25 +96,19 @@ namespace Калькулятор1 {
 	private: System::Windows::Forms::TextBox^ textBox50;
 	private: System::Windows::Forms::Label^ label24;
 	private: System::Windows::Forms::TextBox^ textBox51;
-
 	private: System::Windows::Forms::TextBox^ textBox53;
-
 	private: System::Windows::Forms::Label^ label25;
 	private: System::Windows::Forms::TextBox^ textBox55;
 	private: System::Windows::Forms::TextBox^ textBox56;
-
 	private: System::Windows::Forms::Label^ label26;
 	private: System::Windows::Forms::TextBox^ textBox58;
 	private: System::Windows::Forms::Label^ label27;
 	private: System::Windows::Forms::TextBox^ textBox59;
-
 	private: System::Windows::Forms::TextBox^ textBox61;
 	private: System::Windows::Forms::Label^ label28;
 	private: System::Windows::Forms::TextBox^ textBox62;
-
 	private: System::Windows::Forms::TextBox^ textBox64;
 	private: System::Windows::Forms::TextBox^ textBox65;
-
 	private: System::Windows::Forms::TextBox^ textBox67;
 	private: System::Windows::Forms::TextBox^ textBox68;
 	private: System::Windows::Forms::Label^ label29;
@@ -142,40 +116,28 @@ namespace Калькулятор1 {
 	private: System::Windows::Forms::Label^ label30;
 	private: System::Windows::Forms::Label^ label31;
 	private: System::Windows::Forms::TextBox^ textBox70;
-
-private: System::Windows::Forms::Label^ label32;
-private: System::Windows::Forms::Label^ label33;
-private: System::Windows::Forms::Button^ button1;
-private: System::Windows::Forms::Button^ button3;
-private: System::Windows::Forms::TextBox^ textBox1;
-private: System::Windows::Forms::Label^ label34;
-private: System::Windows::Forms::TextBox^ textBox2;
-private: System::Windows::Forms::ToolTip^ toolTip1;
-private: System::Windows::Forms::Button^ button4;
-
-
-
-private: System::Windows::Forms::ToolTip^ toolTip2;
-private: System::Windows::Forms::TextBox^ textBox7;
-private: System::Windows::Forms::Label^ label35;
-private: System::Windows::Forms::TextBox^ textBox11;
-
-
-
-
+	private: System::Windows::Forms::Label^ label32;
+	private: System::Windows::Forms::Label^ label33;
+	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::Button^ button3;
+	private: System::Windows::Forms::TextBox^ textBox1;
+	private: System::Windows::Forms::Label^ label34;
+	private: System::Windows::Forms::TextBox^ textBox2;
+	private: System::Windows::Forms::ToolTip^ toolTip1;
+	private: System::Windows::Forms::Button^ button4;
+	private: System::Windows::Forms::ToolTip^ toolTip2;
+	private: System::Windows::Forms::TextBox^ textBox7;
+	private: System::Windows::Forms::Label^ label35;
+	private: System::Windows::Forms::TextBox^ textBox11;
 private: System::ComponentModel::IContainer^ components;
-	protected:
-	protected:
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
-
-
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -284,7 +246,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(258, 25);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Калькулятор многочленов";
+			this->label1->Text = L"РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ РјРЅРѕРіРѕС‡Р»РµРЅРѕРІ";
 			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// textBox3
@@ -1127,7 +1089,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->label32->Name = L"label32";
 			this->label32->Size = System::Drawing::Size(75, 21);
 			this->label32->TabIndex = 109;
-			this->label32->Text = L"Ошибка";
+			this->label32->Text = L"РћС€РёР±РєР°";
 			this->label32->Click += gcnew System::EventHandler(this, &MyForm::label32_Click);
 			// 
 			// label33
@@ -1139,7 +1101,7 @@ private: System::ComponentModel::IContainer^ components;
 			this->label33->Name = L"label33";
 			this->label33->Size = System::Drawing::Size(113, 25);
 			this->label33->TabIndex = 110;
-			this->label33->Text = L"Операции:";
+			this->label33->Text = L"РћРїРµСЂР°С†РёРё:";
 			// 
 			// button1
 			// 
@@ -1349,7 +1311,7 @@ private: System::ComponentModel::IContainer^ components;
 #pragma endregion
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	private: System::Void textBox5_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффицент первого многочлена
+	private: System::Void textBox5_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 РєРѕСЌС„С„РёС†РµРЅС‚ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1359,7 +1321,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox3_TextChanged(System::Object^ sender, System::EventArgs^ e) { //1 степень первого многочлена
+	private: System::Void textBox3_TextChanged(System::Object^ sender, System::EventArgs^ e) { //1 СЃС‚РµРїРµРЅСЊ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1372,7 +1334,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 
 	
-	private: System::Void textBox6_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффицент первого многочлена
+	private: System::Void textBox6_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 РєРѕСЌС„С„РёС†РµРЅС‚ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox6->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1384,7 +1346,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 	private: System::Void label3_Click(System::Object^ sender, System::EventArgs^ e) {//2 x
 	}
-	private: System::Void textBox4_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 степень первого многочлена
+	private: System::Void textBox4_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 СЃС‚РµРїРµРЅСЊ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox4->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox4->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1397,7 +1359,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 
 
-	private: System::Void textBox8_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффицент первого многочлена
+	private: System::Void textBox8_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 РєРѕСЌС„С„РёС†РµРЅС‚ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox8->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1407,7 +1369,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox9_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 степень первого многочлена
+	private: System::Void textBox9_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 СЃС‚РµРїРµРЅСЊ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox9->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox9->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1418,7 +1380,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox12_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффицент первого многочлена
+	private: System::Void textBox12_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 РєРѕСЌС„С„РёС†РµРЅС‚ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox12->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1428,7 +1390,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox13_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 степень первого многочлена
+	private: System::Void textBox13_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 СЃС‚РµРїРµРЅСЊ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox13->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox13->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1440,7 +1402,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox15_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффицент первого многочлена
+	private: System::Void textBox15_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 РєРѕСЌС„С„РёС†РµРЅС‚ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox15->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1450,7 +1412,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox16_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 степень первого многочлена
+	private: System::Void textBox16_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 СЃС‚РµРїРµРЅСЊ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox16->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox16->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1462,7 +1424,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox18_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффицент первого многочлена
+	private: System::Void textBox18_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 РєРѕСЌС„С„РёС†РµРЅС‚ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox18->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1472,7 +1434,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox19_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 степень первого многочлена
+	private: System::Void textBox19_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 СЃС‚РµРїРµРЅСЊ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox19->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox19->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1484,7 +1446,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox21_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффицент первого многочлена
+	private: System::Void textBox21_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 РєРѕСЌС„С„РёС†РµРЅС‚ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox21->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1494,7 +1456,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox24_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 степень первого многочлена
+	private: System::Void textBox24_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 СЃС‚РµРїРµРЅСЊ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox24->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox24->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1506,7 +1468,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox23_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффицент первого многочлена
+	private: System::Void textBox23_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 РєРѕСЌС„С„РёС†РµРЅС‚ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox23->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1516,7 +1478,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox25_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 степень первого многочлена
+	private: System::Void textBox25_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 СЃС‚РµРїРµРЅСЊ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox25->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox25->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1530,7 +1492,7 @@ private: System::ComponentModel::IContainer^ components;
 	private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 
-	private: System::Void textBox44_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффицент второго многочлена
+	private: System::Void textBox44_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 РєРѕСЌС„С„РёС†РµРЅС‚ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox44->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1540,7 +1502,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox46_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 степень второго многочлена
+	private: System::Void textBox46_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 СЃС‚РµРїРµРЅСЊ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox46->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox46->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1552,7 +1514,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox43_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффицент второго многочлена
+	private: System::Void textBox43_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 РєРѕСЌС„С„РёС†РµРЅС‚ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox43->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1562,7 +1524,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox45_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 степень второго многочлена
+	private: System::Void textBox45_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 СЃС‚РµРїРµРЅСЊ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox45->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox45->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1574,7 +1536,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox41_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффицент второго многочлена
+	private: System::Void textBox41_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 РєРѕСЌС„С„РёС†РµРЅС‚ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox41->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1584,7 +1546,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox40_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 степень второго многочлена
+	private: System::Void textBox40_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 СЃС‚РµРїРµРЅСЊ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox40->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox40->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1597,7 +1559,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 
 
-	private: System::Void textBox38_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффицент второго многочлена
+	private: System::Void textBox38_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 РєРѕСЌС„С„РёС†РµРЅС‚ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox38->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1607,7 +1569,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox37_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 степень второго многочлена
+	private: System::Void textBox37_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 СЃС‚РµРїРµРЅСЊ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox37->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox37->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1619,7 +1581,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox35_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффицент второго многочлена
+	private: System::Void textBox35_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 РєРѕСЌС„С„РёС†РµРЅС‚ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox35->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1629,7 +1591,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox34_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 степень второго многочлена
+	private: System::Void textBox34_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 СЃС‚РµРїРµРЅСЊ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox34->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox34->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1641,7 +1603,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox32_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффицент второго многочлена
+	private: System::Void textBox32_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 РєРѕСЌС„С„РёС†РµРЅС‚ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox32->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1651,7 +1613,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox31_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 степень второго многочлена
+	private: System::Void textBox31_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 СЃС‚РµРїРµРЅСЊ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox31->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox31->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1663,7 +1625,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox29_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффицент второго многочлена
+	private: System::Void textBox29_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 РєРѕСЌС„С„РёС†РµРЅС‚ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox29->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1673,7 +1635,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox26_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 степень второго многочлена
+	private: System::Void textBox26_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 СЃС‚РµРїРµРЅСЊ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox26->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox26->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1686,7 +1648,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 
 
-	private: System::Void textBox27_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффицент второго многочлена
+	private: System::Void textBox27_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 РєРѕСЌС„С„РёС†РµРЅС‚ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a;
 		bool X = Single::TryParse(textBox27->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1696,7 +1658,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox10_TextChanged_1(System::Object^ sender, System::EventArgs^ e) {//8 степень второго многочлена
+	private: System::Void textBox10_TextChanged_1(System::Object^ sender, System::EventArgs^ e) {//8 СЃС‚РµРїРµРЅСЊ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		Single a, b;
 		Single::TryParse(textBox10->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		bool X = Single::TryParse(textBox10->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
@@ -1708,44 +1670,44 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox68_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффицент итогового многочлена
+	private: System::Void textBox68_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 РєРѕСЌС„С„РёС†РµРЅС‚ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
-	private: System::Void textBox70_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 степень итогового многочлена
-	}
-
-	private: System::Void textBox67_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффицент итогового многочлена
-	}
-	private: System::Void textBox69_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 степень итогового многочлена
+	private: System::Void textBox70_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 СЃС‚РµРїРµРЅСЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
 
-	private: System::Void textBox65_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффицент итогового многочлена
+	private: System::Void textBox67_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 РєРѕСЌС„С„РёС†РµРЅС‚ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
-	private: System::Void textBox64_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 степень итогового многочлена
-	}
-
-	private: System::Void textBox62_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффицент итогового многочлена
-	}
-	private: System::Void textBox61_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 степень итогового многочлена
+	private: System::Void textBox69_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 СЃС‚РµРїРµРЅСЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
 
-	private: System::Void textBox59_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффицент итогового многочлена
+	private: System::Void textBox65_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 РєРѕСЌС„С„РёС†РµРЅС‚ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
-	private: System::Void textBox58_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 степень итогового многочлена
-	}
-
-	private: System::Void textBox56_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффицент итогового многочлена
-	}
-	private: System::Void textBox55_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 степень итогового многочлена
+	private: System::Void textBox64_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 СЃС‚РµРїРµРЅСЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
 
-	private: System::Void textBox53_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффицент итогового многочлена
+	private: System::Void textBox62_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 РєРѕСЌС„С„РёС†РµРЅС‚ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
+	}
+	private: System::Void textBox61_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 СЃС‚РµРїРµРЅСЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
+	}
+
+	private: System::Void textBox59_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 РєРѕСЌС„С„РёС†РµРЅС‚ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
+	}
+	private: System::Void textBox58_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 СЃС‚РµРїРµРЅСЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
+	}
+
+	private: System::Void textBox56_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 РєРѕСЌС„С„РёС†РµРЅС‚ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
+	}
+	private: System::Void textBox55_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 СЃС‚РµРїРµРЅСЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
+	}
+
+	private: System::Void textBox53_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 РєРѕСЌС„С„РёС†РµРЅС‚ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}	
-	private: System::Void textBox50_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 степень итогового многочлена
+	private: System::Void textBox50_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 СЃС‚РµРїРµРЅСЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
 	
-	private: System::Void textBox51_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффицент итогового многочлена
+	private: System::Void textBox51_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 РєРѕСЌС„С„РёС†РµРЅС‚ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
-	private: System::Void textBox49_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 степень итогового многочлена
+	private: System::Void textBox49_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 СЃС‚РµРїРµРЅСЊ РёС‚РѕРіРѕРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	}
 
 	private: System::Void label5_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -1758,10 +1720,10 @@ private: System::Void label2_Click(System::Object^ sender, System::EventArgs^ e)
 
 private: System::Void label18_Click(System::Object^ sender, System::EventArgs^ e) {
 }
-private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {//сложение
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {//СЃР»РѕР¶РµРЅРёРµ
 	Single a, b, c, d, r, f, g, k, a1, b1, c1, d1, r1, f1, g1, k1;
 	Single q, w, p, j, t, y, u, z, q1, w1, p1, j1, t1, y1, u1, z1;
-	Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);// степени первого многочлена
+	Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);// СЃС‚РµРїРµРЅРё РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox4->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
 	Single::TryParse(textBox9->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, c);
 	Single::TryParse(textBox13->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, d);
@@ -1770,7 +1732,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox24->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, g);
 	Single::TryParse(textBox25->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, k);
 
-	Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q);//коэффициенты первого многочлена
+	Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q);//РєРѕСЌС„С„РёС†РёРµРЅС‚С‹ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox6->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, w);
 	Single::TryParse(textBox8->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, p);
 	Single::TryParse(textBox12->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, j);
@@ -1779,7 +1741,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox21->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, u);
 	Single::TryParse(textBox23->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, z);
 	
-	Single::TryParse(textBox46->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a1);//степени второго многочленана
+	Single::TryParse(textBox46->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a1);//СЃС‚РµРїРµРЅРё РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°РЅР°
 	Single::TryParse(textBox45->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b1);
 	Single::TryParse(textBox40->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, c1);
 	Single::TryParse(textBox37->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, d1);
@@ -1788,7 +1750,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox26->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, g1);
 	Single::TryParse(textBox10->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, k1);
 
-	Single::TryParse(textBox44->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q1);//коэффициенты второго многочлена
+	Single::TryParse(textBox44->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q1);//РєРѕСЌС„С„РёС†РёРµРЅС‚С‹ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox43->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, w1);
 	Single::TryParse(textBox41->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, p1);
 	Single::TryParse(textBox38->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, j1);
@@ -1802,7 +1764,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	ctep1[0] = a1; ctep1[1] = b1; ctep1[2] = c1; ctep1[3] = d1; ctep1[4] = r1; ctep1[5] = f1; ctep1[6] = g1; ctep1[7] = k1;
 	koa[0] = q, koa[1] = w, koa[2] = p, koa[3] = j, koa[4] = t, koa[5] = y, koa[6] = u, koa[7] = z;
 	koa1[0] = q1, koa1[1] = w1, koa1[2] = p1, koa1[3] = j1, koa1[4] = t1, koa1[5] = y1, koa1[6] = u1, koa1[7] = z1;
-	for (int i = 1; i < 8; i++) {// проверка, есть ли в многочлене одинаковые степени
+	for (int i = 1; i < 8; i++) {// РїСЂРѕРІРµСЂРєР°, РµСЃС‚СЊ Р»Рё РІ РјРЅРѕРіРѕС‡Р»РµРЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ СЃС‚РµРїРµРЅРё
 		if (ctep[0] == ctep[i]) {
 			koa[0] = koa[0] + koa[i];
 			ctep[i] = 0;
@@ -1810,7 +1772,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 		}
 	}
 	d5 = 1;
-	for (int l = 1; l < 8; l++) {// проверка, есть ли в многочлене одинаковые степени
+	for (int l = 1; l < 8; l++) {// РїСЂРѕРІРµСЂРєР°, РµСЃС‚СЊ Р»Рё РІ РјРЅРѕРіРѕС‡Р»РµРЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ СЃС‚РµРїРµРЅРё
 		for (int i = 0; i < d5; i++) {
 			if (ctep[l] == ctep[i]) {
 				koa[l] = koa[l] + koa[i];
@@ -1818,7 +1780,7 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 				koa[i] = 0;
 			}
 		}
-		for (int i = d5 + 1; i < 8; i++) {// проверка, есть ли в многочлене одинаковые степени
+		for (int i = d5 + 1; i < 8; i++) {// РїСЂРѕРІРµСЂРєР°, РµСЃС‚СЊ Р»Рё РІ РјРЅРѕРіРѕС‡Р»РµРЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ СЃС‚РµРїРµРЅРё
 			if (ctep[l] == ctep[i]) {
 				koa[l] = koa[l] + koa[i];
 				ctep[i] = 0;
@@ -1827,14 +1789,14 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 		}
 		d5 += 1;
 	}
-	for (int l = 0; l < 8; l++) {// сложение коэффицентов первого и второго многочлена
+	for (int l = 0; l < 8; l++) {// СЃР»РѕР¶РµРЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ  РїРµСЂРІРѕРіРѕ Рё РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		for (int i = 0; i < 8; i++) {
 			if (ctep[l] == ctep1[i]) {
 				koa[l] = koa1[i] + koa[l];
 			}
 		}
 	}
-	textBox68->Text = String::Format("{0:F0}", koa[0]);//вывод результатов
+	textBox68->Text = String::Format("{0:F0}", koa[0]);//РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ
 	textBox67->Text = String::Format("{0:F0}", koa[1]);
 	textBox65->Text = String::Format("{0:F0}", koa[2]);
 	textBox62->Text = String::Format("{0:F0}", koa[3]);
@@ -1852,14 +1814,14 @@ private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e
 	textBox49->Text = String::Format("{0:F0}", ctep[7]);
 
 }
-private: System::Void label32_Click(System::Object^ sender, System::EventArgs^ e) {//ошибка
+private: System::Void label32_Click(System::Object^ sender, System::EventArgs^ e) {//РѕС€РёР±РєР°
 }
 private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) {
 }
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {// вычитание
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {// РІС‹С‡РёС‚Р°РЅРёРµ
 	Single a, b, c, d, r, f, g, k, a1, b1, c1, d1, r1, f1, g1, k1;
 	Single q, w, p, j, t, y, u, z, q1, w1, p1, j1, t1, y1, u1, z1;
-	Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);// степени первого многочлена
+	Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);// СЃС‚РµРїРµРЅРё РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox4->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
 	Single::TryParse(textBox9->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, c);
 	Single::TryParse(textBox13->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, d);
@@ -1868,7 +1830,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox24->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, g);
 	Single::TryParse(textBox25->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, k);
 
-	Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q);//коэффициенты первого многочлена
+	Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q);//РєРѕСЌС„С„РёС†РёРµРЅС‚С‹ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox6->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, w);
 	Single::TryParse(textBox8->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, p);
 	Single::TryParse(textBox12->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, j);
@@ -1877,7 +1839,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox21->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, u);
 	Single::TryParse(textBox23->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, z);
 
-	Single::TryParse(textBox46->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a1);//степени второго многочленана
+	Single::TryParse(textBox46->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a1);//СЃС‚РµРїРµРЅРё РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°РЅР°
 	Single::TryParse(textBox45->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b1);
 	Single::TryParse(textBox40->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, c1);
 	Single::TryParse(textBox37->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, d1);
@@ -1886,7 +1848,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox26->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, g1);
 	Single::TryParse(textBox10->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, k1);
 
-	Single::TryParse(textBox44->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q1);//коэффициенты второго многочлена
+	Single::TryParse(textBox44->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q1);//РєРѕСЌС„С„РёС†РёРµРЅС‚С‹ РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox43->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, w1);
 	Single::TryParse(textBox41->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, p1);
 	Single::TryParse(textBox38->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, j1);
@@ -1900,7 +1862,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	ctep1[0] = a1; ctep1[1] = b1; ctep1[2] = c1; ctep1[3] = d1; ctep1[4] = r1; ctep1[5] = f1; ctep1[6] = g1; ctep1[7] = k1;
 	koa[0] = q, koa[1] = w, koa[2] = p, koa[3] = j, koa[4] = t, koa[5] = y, koa[6] = u, koa[7] = z;
 	koa1[0] = q1, koa1[1] = w1, koa1[2] = p1, koa1[3] = j1, koa1[4] = t1, koa1[5] = y1, koa1[6] = u1, koa1[7] = z1;
-	for (int i = 1; i < 8; i++) {// проверка, есть ли в многочлене одинаковые степени
+	for (int i = 1; i < 8; i++) {// РїСЂРѕРІРµСЂРєР°, РµСЃС‚СЊ Р»Рё РІ РјРЅРѕРіРѕС‡Р»РµРЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ СЃС‚РµРїРµРЅРё
 		if (ctep[0] == ctep[i]) {
 			koa[0] = koa[0] + koa[i];
 			ctep[i] = 0;
@@ -1909,7 +1871,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	}
 
 	z5 = 1;
-	for (int l = 1; l < 8; l++) {// проверка, есть ли в многочлене одинаковые степени
+	for (int l = 1; l < 8; l++) {// РїСЂРѕРІРµСЂРєР°, РµСЃС‚СЊ Р»Рё РІ РјРЅРѕРіРѕС‡Р»РµРЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ СЃС‚РµРїРµРЅРё
 		for (int i = 0; i < z5; i++) {
 			if (ctep[l] == ctep[i]) {
 				koa[l] = koa[l] - koa[i];
@@ -1917,7 +1879,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 				koa[i] = 0;
 			}
 		}
-		for (int i = z5 + 1; i < 8; i++) {// проверка, есть ли в многочлене одинаковые степени
+		for (int i = z5 + 1; i < 8; i++) {// РїСЂРѕРІРµСЂРєР°, РµСЃС‚СЊ Р»Рё РІ РјРЅРѕРіРѕС‡Р»РµРЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ СЃС‚РµРїРµРЅРё
 			if (ctep[l] == ctep[i]) {
 				koa[l] = koa[l] - koa[i];
 				ctep[i] = 0;
@@ -1926,14 +1888,14 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		}
 		z5 += 1;
 	}
-	for (int l = 0; l < 8; l++) { //вычитание коэффицентов первого и второго многочлена
+	for (int l = 0; l < 8; l++) { //РІС‹С‡РёС‚Р°РЅРёРµ РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ  РїРµСЂРІРѕРіРѕ Рё РІС‚РѕСЂРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 		for (int i = 0; i < 8; i++) {
 			if (ctep[l] == ctep1[i]) {
 				koa[l] = koa[l] - koa1[i];
 			}
 		}
 	}
-	textBox68->Text = String::Format("{0:F0}", koa[0]);// вывод результатов
+	textBox68->Text = String::Format("{0:F0}", koa[0]);// РІС‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ
 	textBox67->Text = String::Format("{0:F0}", koa[1]);
 	textBox65->Text = String::Format("{0:F0}", koa[2]);
 	textBox62->Text = String::Format("{0:F0}", koa[3]);
@@ -1951,11 +1913,11 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 	textBox49->Text = String::Format("{0:F0}", ctep[7]);
 
 }
-private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {//умножение
-	toolTip1->SetToolTip(button3, "Для первого многочлена");// текст подсказки 
+private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {//СѓРјРЅРѕР¶РµРЅРёРµ
+	toolTip1->SetToolTip(button3, "Р”Р»СЏ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°");// С‚РµРєСЃС‚ РїРѕРґСЃРєР°Р·РєРё 
 	toolTip1->IsBalloon = true;
 	Single a, b, c, d, r, f, g, k, q, w, p, j, t, y, u, z, o, o1;
-	Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);// степени первого многочлена
+	Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);// СЃС‚РµРїРµРЅРё РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox4->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
 	Single::TryParse(textBox9->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, c);
 	Single::TryParse(textBox13->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, d);
@@ -1964,7 +1926,7 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox24->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, g);
 	Single::TryParse(textBox25->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, k);
 
-	Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q);//коэффициенты первого многочлена
+	Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q);//РєРѕСЌС„С„РёС†РёРµРЅС‚С‹ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox6->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, w);
 	Single::TryParse(textBox8->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, p);
 	Single::TryParse(textBox12->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, j);
@@ -1973,12 +1935,12 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox21->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, u);
 	Single::TryParse(textBox23->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, z);
 
-	Single::TryParse(textBox2->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, o);
-	Single::TryParse(textBox1->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, o1);
+	Single::TryParse(textBox2->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, o);// РєРѕСЌС„С„РёС†РёРµРЅС‚
+	Single::TryParse(textBox1->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, o1);// СЃС‚РµРїРµРЅСЊ
 	int ctep[8], koa[8], f5;
 	ctep[0] = a; ctep[1] = b; ctep[2] = c; ctep[3] = d; ctep[4] = r; ctep[5] = f; ctep[6] = g; ctep[7] = k;
 	koa[0] = q, koa[1] = w, koa[2] = p, koa[3] = j, koa[4] = t, koa[5] = y, koa[6] = u, koa[7] = z;
-	for (int i = 1; i < 8; i++) {// проверка, есть ли в многочлене одинаковые степени
+	for (int i = 1; i < 8; i++) {// РїСЂРѕРІРµСЂРєР°, РµСЃС‚СЊ Р»Рё РІ РјРЅРѕРіРѕС‡Р»РµРЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ СЃС‚РµРїРµРЅРё
 		if (ctep[0] == ctep[i]) {
 			koa[0] = koa[0] + koa[i];
 			ctep[i] = 0;
@@ -1986,7 +1948,7 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 		}
 	}
 
-	if (ctep[0] == 0) {//вывод степеней(при умножении степени складываются)
+	if (ctep[0] == 0) {//РІС‹РІРѕРґ СЃС‚РµРїРµРЅРµР№(РїСЂРё СѓРјРЅРѕР¶РµРЅРёРё СЃС‚РµРїРµРЅРё СЃРєР»Р°РґС‹РІР°СЋС‚СЃСЏ)
 		textBox70->Text = String::Format("{0:F0}", 0);
 	}
 	else {
@@ -2034,10 +1996,10 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	else {
 		textBox49->Text = String::Format("{0:F0}", ctep[7] + o1);
 	}
-	for (int i = 0; i < 8; i++) {// умножение всех коэффицентов
+	for (int i = 0; i < 8; i++) {// СѓРјРЅРѕР¶РµРЅРёРµ РІСЃРµС… РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ
 		koa[i] = koa[i] * o;
 	}
-	textBox68->Text = String::Format("{0:F0}", koa[0]);//вывод коэффицентов
+	textBox68->Text = String::Format("{0:F0}", koa[0]);//РІС‹РІРѕРґ РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ
 	textBox67->Text = String::Format("{0:F0}", koa[1]);
 	textBox65->Text = String::Format("{0:F0}", koa[2]);
 	textBox62->Text = String::Format("{0:F0}", koa[3]);
@@ -2047,15 +2009,15 @@ private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e
 	textBox51->Text = String::Format("{0:F0}", koa[7]);
 }
 
-private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {//коэ умножения 
+private: System::Void textBox2_TextChanged(System::Object^ sender, System::EventArgs^ e) {//РєРѕСЌС„С„РёС†РёРµРЅС‚ СѓРјРЅРѕР¶РµРЅРёСЏ 
 }
-private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {//степ умножения 
+private: System::Void textBox1_TextChanged(System::Object^ sender, System::EventArgs^ e) {//СЃС‚РµРїРµРЅСЊ СѓРјРЅРѕР¶РµРЅРёСЏ 
 }
-private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {// деление
-	toolTip2->SetToolTip(button4, "Для первого многочлена");// текст подсказки
+private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {// РґРµР»РµРЅРёРµ
+	toolTip2->SetToolTip(button4, "Р”Р»СЏ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°");// С‚РµРєСЃС‚ РїРѕРґСЃРєР°Р·РєРё
 	toolTip2->IsBalloon = true;
 	Single a, b, c, d, r, f, g, k, q, w, p, j, t, y, u, z, o, o1;
-	Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);// степени первого многочлена
+	Single::TryParse(textBox3->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);// СЃС‚РµРїРµРЅРё РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox4->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, b);
 	Single::TryParse(textBox9->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, c);
 	Single::TryParse(textBox13->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, d);
@@ -2064,7 +2026,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox24->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, g);
 	Single::TryParse(textBox25->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, k);
 
-	Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q);//коэффициенты первого многочлена
+	Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, q);//РєРѕСЌС„С„РёС†РёРµРЅС‚С‹ РїРµСЂРІРѕРіРѕ РјРЅРѕРіРѕС‡Р»РµРЅР°
 	Single::TryParse(textBox6->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, w);
 	Single::TryParse(textBox8->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, p);
 	Single::TryParse(textBox12->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, j);
@@ -2073,9 +2035,9 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	Single::TryParse(textBox21->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, u);
 	Single::TryParse(textBox23->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, z);
 
-	Single::TryParse(textBox11->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, o);
-	Single::TryParse(textBox7->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, o1);
-	if (o == 0) {// нельзя делить на ноль
+	Single::TryParse(textBox11->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, o);//РєРѕСЌС„С„РёС†РёРµРЅС‚
+	Single::TryParse(textBox7->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, o1);// СЃС‚РµРїРµРЅСЊ
+	if (o == 0) {// РЅРµР»СЊР·СЏ РґРµР»РёС‚СЊ РЅР° РЅРѕР»СЊ
 		label32->ForeColor = Color::Red;
 		return;
 	}
@@ -2085,7 +2047,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	int ctep[8], koa[8], f5;
 	ctep[0] = a; ctep[1] = b; ctep[2] = c; ctep[3] = d; ctep[4] = r; ctep[5] = f; ctep[6] = g; ctep[7] = k;
 	koa[0] = q, koa[1] = w, koa[2] = p, koa[3] = j, koa[4] = t, koa[5] = y, koa[6] = u, koa[7] = z;
-	for (int i = 1; i < 8; i++) {// проверка, есть ли в многочлене одинаковые степени
+	for (int i = 1; i < 8; i++) {// РїСЂРѕРІРµСЂРєР°, РµСЃС‚СЊ Р»Рё РІ РјРЅРѕРіРѕС‡Р»РµРЅРµ РѕРґРёРЅР°РєРѕРІС‹Рµ СЃС‚РµРїРµРЅРё
 		if (ctep[0] == ctep[i]) {
 			koa[0] = koa[0] + koa[i];
 			ctep[i] = 0;
@@ -2093,7 +2055,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 		}
 	}
 
-	if (ctep[0] == 0) {//вывод степеней(при делении степени вычитаются)
+	if (ctep[0] == 0) {//РІС‹РІРѕРґ СЃС‚РµРїРµРЅРµР№(РїСЂРё РґРµР»РµРЅРёРё СЃС‚РµРїРµРЅРё РІС‹С‡РёС‚Р°СЋС‚СЃСЏ)
 		textBox70->Text = String::Format("{0:F0}", 0);
 	}
 	else {
@@ -2141,7 +2103,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 	else {
 		textBox49->Text = String::Format("{0:F0}", ctep[7] - o1);
 	}
-	textBox68->Text = String::Format("{0:F1}", koa[0] / o);
+	textBox68->Text = String::Format("{0:F1}", koa[0] / o);//РІС‹РІРѕРґ РєРѕСЌС„С„РёС†РёРµРЅС‚РѕРІ
 	textBox67->Text = String::Format("{0:F1}", koa[1] / o);
 	textBox65->Text = String::Format("{0:F1}", koa[2] / o);
 	textBox62->Text = String::Format("{0:F1}", koa[3] / o);
@@ -2153,9 +2115,9 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 private: System::Void toolTip2_Popup(System::Object^ sender, System::Windows::Forms::PopupEventArgs^ e) {
 
 }
-private: System::Void textBox11_TextChanged(System::Object^ sender, System::EventArgs^ e) {// коэ деления
+private: System::Void textBox11_TextChanged(System::Object^ sender, System::EventArgs^ e) {// РєРѕСЌС„С„РёС†РёРµРЅС‚ РґРµР»РµРЅРёСЏ
 }
-private: System::Void textBox7_TextChanged(System::Object^ sender, System::EventArgs^ e) {// степ деления
+private: System::Void textBox7_TextChanged(System::Object^ sender, System::EventArgs^ e) {// СЃС‚РµРїРµРЅСЊ РґРµР»РµРЅРёСЏ
 }
 };
 }
