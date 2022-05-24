@@ -1311,7 +1311,7 @@ private: System::ComponentModel::IContainer^ components;
 #pragma endregion
 	private: System::Void label1_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
-	private: System::Void textBox5_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффицент первого многочлена
+	private: System::Void textBox5_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффициент первого многочлена
 		Single a;
 		bool X = Single::TryParse(textBox5->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1334,7 +1334,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 
 	
-	private: System::Void textBox6_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффицент первого многочлена
+	private: System::Void textBox6_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффициент первого многочлена
 		Single a;
 		bool X = Single::TryParse(textBox6->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1359,7 +1359,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 
 
-	private: System::Void textBox8_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффицент первого многочлена
+	private: System::Void textBox8_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффициент первого многочлена
 		Single a;
 		bool X = Single::TryParse(textBox8->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1380,7 +1380,7 @@ private: System::ComponentModel::IContainer^ components;
 			label32->ForeColor = Color::Black;
 		}
 	}
-	private: System::Void textBox12_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффицент первого многочлена
+	private: System::Void textBox12_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффициент первого многочлена
 		Single a;
 		bool X = Single::TryParse(textBox12->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1402,7 +1402,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox15_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффицент первого многочлена
+	private: System::Void textBox15_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффициент первого многочлена
 		Single a;
 		bool X = Single::TryParse(textBox15->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1424,7 +1424,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox18_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффицент первого многочлена
+	private: System::Void textBox18_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффициент первого многочлена
 		Single a;
 		bool X = Single::TryParse(textBox18->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1446,7 +1446,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox21_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффицент первого многочлена
+	private: System::Void textBox21_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффициент первого многочлена
 		Single a;
 		bool X = Single::TryParse(textBox21->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1468,7 +1468,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox23_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффицент первого многочлена
+	private: System::Void textBox23_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффициент первого многочлена
 		Single a;
 		bool X = Single::TryParse(textBox23->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1492,7 +1492,7 @@ private: System::ComponentModel::IContainer^ components;
 	private: System::Void label4_Click(System::Object^ sender, System::EventArgs^ e) {
 	}
 
-	private: System::Void textBox44_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффицент второго многочлена
+	private: System::Void textBox44_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффициент второго многочлена
 		Single a;
 		bool X = Single::TryParse(textBox44->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1514,7 +1514,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox43_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффицент второго многочлена
+	private: System::Void textBox43_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффициент второго многочлена
 		Single a;
 		bool X = Single::TryParse(textBox43->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1536,7 +1536,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox41_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффицент второго многочлена
+	private: System::Void textBox41_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффициент второго многочлена
 		Single a;
 		bool X = Single::TryParse(textBox41->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1559,7 +1559,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 
 
-	private: System::Void textBox38_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффицент второго многочлена
+	private: System::Void textBox38_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффициент второго многочлена
 		Single a;
 		bool X = Single::TryParse(textBox38->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1581,7 +1581,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox35_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффицент второго многочлена
+	private: System::Void textBox35_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффициент второго многочлена
 		Single a;
 		bool X = Single::TryParse(textBox35->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1603,7 +1603,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox32_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффицент второго многочлена
+	private: System::Void textBox32_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффициент второго многочлена
 		Single a;
 		bool X = Single::TryParse(textBox32->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1625,7 +1625,7 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox29_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффицент второго многочлена
+	private: System::Void textBox29_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффициент второго многочлена
 		Single a;
 		bool X = Single::TryParse(textBox29->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1648,7 +1648,7 @@ private: System::ComponentModel::IContainer^ components;
 	}
 
 
-	private: System::Void textBox27_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффицент второго многочлена
+	private: System::Void textBox27_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффициент второго многочлена
 		Single a;
 		bool X = Single::TryParse(textBox27->Text, System::Globalization::NumberStyles::Number, System::Globalization::NumberFormatInfo::CurrentInfo, a);
 		if (X == false) {
@@ -1670,42 +1670,42 @@ private: System::ComponentModel::IContainer^ components;
 		}
 	}
 
-	private: System::Void textBox68_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффицент итогового многочлена
+	private: System::Void textBox68_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 коэффициент итогового многочлена
 	}
 	private: System::Void textBox70_TextChanged(System::Object^ sender, System::EventArgs^ e) {//1 степень итогового многочлена
 	}
 
-	private: System::Void textBox67_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффицент итогового многочлена
+	private: System::Void textBox67_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 коэффициент итогового многочлена
 	}
 	private: System::Void textBox69_TextChanged(System::Object^ sender, System::EventArgs^ e) {//2 степень итогового многочлена
 	}
 
-	private: System::Void textBox65_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффицент итогового многочлена
+	private: System::Void textBox65_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 коэффициент итогового многочлена
 	}
 	private: System::Void textBox64_TextChanged(System::Object^ sender, System::EventArgs^ e) {//3 степень итогового многочлена
 	}
 
-	private: System::Void textBox62_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффицент итогового многочлена
+	private: System::Void textBox62_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 коэффициент итогового многочлена
 	}
 	private: System::Void textBox61_TextChanged(System::Object^ sender, System::EventArgs^ e) {//4 степень итогового многочлена
 	}
 
-	private: System::Void textBox59_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффицент итогового многочлена
+	private: System::Void textBox59_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 коэффициент итогового многочлена
 	}
 	private: System::Void textBox58_TextChanged(System::Object^ sender, System::EventArgs^ e) {//5 степень итогового многочлена
 	}
 
-	private: System::Void textBox56_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффицент итогового многочлена
+	private: System::Void textBox56_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 коэффициент итогового многочлена
 	}
 	private: System::Void textBox55_TextChanged(System::Object^ sender, System::EventArgs^ e) {//6 степень итогового многочлена
 	}
 
-	private: System::Void textBox53_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффицент итогового многочлена
+	private: System::Void textBox53_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 коэффициент итогового многочлена
 	}	
 	private: System::Void textBox50_TextChanged(System::Object^ sender, System::EventArgs^ e) {//7 степень итогового многочлена
 	}
 	
-	private: System::Void textBox51_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффицент итогового многочлена
+	private: System::Void textBox51_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 коэффициент итогового многочлена
 	}
 	private: System::Void textBox49_TextChanged(System::Object^ sender, System::EventArgs^ e) {//8 степень итогового многочлена
 	}
