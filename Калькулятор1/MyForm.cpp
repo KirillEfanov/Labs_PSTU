@@ -6,7 +6,7 @@ int main(cli::array<String^>^ args) {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 
-	Калькулятор1::MyForm form;
+	РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ1::MyForm form;
 	Application::Run(% form);
 	return 0;
 }
